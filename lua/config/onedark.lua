@@ -1,17 +1,8 @@
--- https://github.com/navarasu/onedark.nvim
--- Using Lazy
-return {
-{
-  "navarasu/onedark.nvim",
-  priority = 1000, -- make sure to load this before all the other start plugins
-  config = function()
-    require('onedark').setup {
-      -- style = 'darker'
-      -- style = 'deep'
-
+-- Lua
+require('onedark').setup  {
     -- Main options --
-    style = 'darker', -- Default theme style. Choose between 'dark', 'darker', 'cool', 'deep', 'warm', 'warmer' and 'light'
-    transparent = false,  -- Show/hide background
+    style = 'dark', -- Default theme style. Choose between 'dark', 'darker', 'cool', 'deep', 'warm', 'warmer' and 'light'
+    transparent = true,  -- Show/hide background
     term_colors = true, -- Change terminal color as per the selected theme style
     ending_tildes = false, -- Show the end-of-buffer tildes. By default they are hidden
     cmp_itemkind_reverse = false, -- reverse item kind highlights in cmp menu
@@ -37,9 +28,7 @@ return {
     },
 
     -- Custom Highlights --
-    colors = {
-	bg0 = '#101010'
-	}, -- Override default colors
+    colors = {}, -- Override default colors
     highlights = {}, -- Override highlight groups
 
     -- Plugins Config --
@@ -48,10 +37,4 @@ return {
         undercurl = true,   -- use undercurl instead of underline for diagnostics
         background = true,    -- use background color for virtual text
     },
-
-
-    }
-    require('onedark').load()
-  end
-  }
 }
