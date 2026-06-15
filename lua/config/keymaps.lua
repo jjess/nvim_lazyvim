@@ -9,6 +9,8 @@
 -- usar portapapeles del sistema
 vim.opt.clipboard = "unnamedplus"
 
+vim.keymap.set("v", "<leader>Y", '"+y', { desc = "Copy to system clipboard" })
+
 local map = vim.keymap.set
 -- copiar al clipboard del sistema
 -- no va bien
