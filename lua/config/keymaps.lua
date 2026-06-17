@@ -24,3 +24,13 @@ local map = vim.keymap.set
 
 
 
+-- tagbar
+vim.keymap.set(
+  "n",
+  "<F2>",
+  ":TagbarToggle<CR>",
+  { desc = "TagBar" ,
+    noremap = true,
+    silent = true 
+  }
+)
