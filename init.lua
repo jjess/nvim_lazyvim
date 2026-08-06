@@ -3,3 +3,5 @@ require("config.lazy")
 
 -- 20260806 JES
 vim.opt.guifont="IBM Plex Mono:h11"
+
+
