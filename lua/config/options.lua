@@ -11,3 +11,8 @@ vim.opt.number = true
 -- 3 : opción por defecto de lazyvim
 -- 2 : una status line por ventana
 vim.opt.laststatus = 2
+
+-- 20260809 JES
+-- telescope
+vim.g.lazyvim_picker = "telescope"
+
