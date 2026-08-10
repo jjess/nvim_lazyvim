@@ -6,7 +6,8 @@ return {
     cmd = "TagbarToggle", -- lazy load
 
     init = function()
-      vim.g.tagbar_ctags_bin = "/usr/local/bin/uctags"
+      -- vim.g.tagbar_ctags_bin = "/usr/local/bin/uctags"
+      vim.g.tagbar_ctags_bin = "/usr/bin/ctags-exuberant"
     end,
 
     keys = {
