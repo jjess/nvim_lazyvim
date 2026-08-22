@@ -14,5 +14,5 @@ vim.opt.laststatus = 2
 
 -- 20260809 JES
 -- telescope
-vim.g.lazyvim_picker = "telescope"
+-- vim.g.lazyvim_picker = "telescope"
 
