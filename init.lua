@@ -2,7 +2,11 @@
 require("config.lazy")
 
 -- 20260806 JES
+<<<<<<< HEAD
 vim.opt.guifont="IBM Plex Mono:h11"
+=======
+vim.opt.guifont = "IBM Plex Mono:h11"
+>>>>>>> f5d5746 (nerdtree y cambios menores)
 
 -- 20260818 JES
 -- prueba para nvim con osc52
